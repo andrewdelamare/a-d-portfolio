@@ -1,6 +1,6 @@
 export const Projects = () => {
   return (
-    <div>
+    <div className="grid grid-cols-3 grid-rows-3">
       THIS WILL BE THE PROJECT PAGE
     </div>
   )

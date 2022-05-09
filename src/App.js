@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import {
   BrowserRouter as Router,
   Routes, Route, Link
@@ -15,14 +14,14 @@ function App() {
   return (
     <Router>
     <NavBar />
+    <div className="h-full flow-root w-full">
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/ABOUT' element={<About />} />
+        <Route path='/about' element={<About />} />
         <Route path='/code' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
-
-
+    </div>
     </Router>  
   );
 }
