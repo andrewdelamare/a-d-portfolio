@@ -1,7 +1,8 @@
 export const Home = () => {
+
   return (
-    <div>
-      THIS WILL BE THE HOME PAGE WITH LINKS TO OTHER PAGES
+    <div class="bg-haagse flex justify-center ">
+      Hi, I'm Andrew
     </div>
   )
 }

@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Routes, Route, Link
 } from "react-router-dom";
+import { NavBar } from './components/NavBar';
 import { Home } from './Home';
 import { About } from './About';
 import { Contact } from './Contact';
@@ -13,17 +14,16 @@ function App() {
 
   return (
     <Router>
+    <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/ABOUT' element={<About />} />
-        <Route path='/PROJECTS' element={<Projects />} />
-        <Route path='/CONTACT' element={<Contact />} />
+        <Route path='/code' element={<Projects />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
-      <div>
-        This will be the footer to all pages
-      </div>
-    </Router>
-    
+
+
+    </Router>  
   );
 }
 
