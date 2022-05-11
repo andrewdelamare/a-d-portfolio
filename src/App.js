@@ -1,7 +1,3 @@
-import {
-  BrowserRouter as Router,
-  Routes, Route, Link
-} from "react-router-dom";
 import { NavBar } from './components/NavBar';
 import { Home } from './Home';
 import { About } from './About';
@@ -12,17 +8,17 @@ function App() {
 
 
   return (
-    <Router>
+  <div className='bg-slate-200 flex flex-col justify-items-center justify-center'>
     <NavBar />
-    <div className="h-full flow-root w-full">
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/code' element={<Projects />} />
-        <Route path='/contact' element={<Contact />} />
-      </Routes>
+    <div className=" h-full flow-root w-auto mx-8 ">
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
     </div>
-    </Router>  
+    
+  </div>
+   
   );
 }
 
