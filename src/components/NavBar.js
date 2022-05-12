@@ -1,3 +1,6 @@
+import { ReactComponent as HomeIcon } from "../icons/Essentials/home.svg"
+import { ReactComponent as CodeIcon } from "../icons/Navigation/divide.svg"
+import { ReactComponent as ContactIcon } from "../icons/Essentials/message.svg"
 export const NavBar = () => {
 /*
   .nav-container{
@@ -20,12 +23,12 @@ export const NavBar = () => {
 }
 */
   return (
-    <nav className="inline-grid grid-cols-2 mr-4 sticky top-0 float-right w-full font-sans bg-slate-500">
+    <nav className="inline-grid grid-cols-2 mr-4 sticky top-0 float-right w-full font-sans">
       <div className="pl-5 pt-3 text-2xl"><p><span className="text-4xl">A</span>ndrew de <span className="text-4xl">L</span>amare</p></div>
       <div className="flex flex-row justify-between mr-5 " >
-        <a href="#" className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Home</a>
-        <a href="#projects" className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Code</a>
-        <a href="#contact" className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Contact</a>
+        <a href="#" className="inline-flex  border-0 pt-5 px-6 focus:outline-none"> <HomeIcon /> </a>
+        <a href="#projects" className="inline-flex  border-0 pt-5 px-6 focus:outline-none  "><CodeIcon /></a>
+        <a href="#contact" className="inline-flex border-0 pt-5 px-6 focus:outline-none  "><ContactIcon /></a>
       </div>
     </nav>
   )
