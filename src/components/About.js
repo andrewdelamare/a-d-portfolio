@@ -7,12 +7,12 @@ export const About = () => {
       <div className="font-serif text-xl self-center">
         <p className="text-justify w-9/10">
         I'm a software developer located in Jyväskylä, Finland. 
-        I like colaberating, being part of a team, and making things happen. 
+        I like collaborating, being part of a team, and making things happen. 
         I have experience with front end technologies and frameworks.
         I also have experience with some back end tech, and I'm very interested in modern full stack development
         </p>
       </div>
-      <Map id="map"/>
+      <Map id="map" />
     </div>  
   )
 }

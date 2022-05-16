@@ -4,6 +4,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        blue: {
+          101: '#75cff0',
+        },
+      },
       fontFamily: {
         sans: ['Ruda', 'sans-serif'],
         serif: ['Roboto Slab', 'serif'],

@@ -21,6 +21,6 @@ export const Map = () => {
 
     
   return(
-      <div ref={mapContainer} className="map-container h-400 w-full border-4 border-slate-800 rounded-lg pt-10 shadow-lg" />
+      <div ref={mapContainer} className="map-container h-400 w-full border-4 border-slate-800 rounded-lg pt-10 mt-10 shadow-lg" />
   )
 }
