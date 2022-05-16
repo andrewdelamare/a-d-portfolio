@@ -23,7 +23,7 @@ export const NavBar = () => {
 }
 */
   return (
-    <nav className="inline-flex justify-between mr-4 sticky top-0 float-right w-full font-sans">
+    <nav className="inline-flex justify-between mr-4 sticky top-0 float-right w-full font-sans bg-slate-100 z-50">
       <div className="pl-5 pt-3 text-2xl"><p><span className="text-4xl">A</span>ndrew de <span className="text-4xl">L</span>amare</p></div>
       <div className="flex flex-row justify-between mr-5 " >
         <a href="#" className="inline-flex  border-0 pt-5 px-6 focus:outline-none"> <HomeIcon /> </a>
