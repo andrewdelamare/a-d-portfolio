@@ -4,9 +4,9 @@ import mapboxgl from 'mapbox-gl';
 export const Map = () => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const [lng, setLng] = useState(25.7473);
-  const [lat, setLat] = useState(62.2426);
-  const [zoom, setZoom] = useState(5);
+  const lng = 25.7473;
+  const lat = 62.2426;
+  const zoom = 10;
   
   mapboxgl.accessToken = process.env.REACT_APP_MAP;
   useEffect(() => {
@@ -21,6 +21,6 @@ export const Map = () => {
 
     
   return(
-      <div ref={mapContainer} className="map-container h-400 w-full border-4 border-slate-800 rounded-lg pt-10 mt-10 shadow-lg" />
+      <div ref={mapContainer} className="map-container min-h-[400px] lg:h-500 xl:h-600  w-full border-4 border-slate-800 rounded-lg shadow-lg" />
   )
 }

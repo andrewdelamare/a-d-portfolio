@@ -7,6 +7,8 @@ module.exports = {
       colors: {
         blue: {
           101: '#75cff0',
+          102: '#69B9D6',
+          103: '#5698B0',
         },
       },
       fontFamily: {
@@ -18,6 +20,8 @@ module.exports = {
       },
       height: {
         '400': '400px',
+        '500': '500px',
+        '600': '600px',
       }
     },
   },
