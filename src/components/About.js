@@ -3,9 +3,9 @@ export const About = () => {
   
   return (
     <div className="grid grid-cols-2 gap-9 w-4/5 justify-center mx-auto mt-32 mb-64 pt-32" id="about">
-      <h2 className="text-4xl pb-5 col-span-2">About me</h2>
-      <div className="flex flex-col" >
-        <div className="font-serif text-xl self-center">
+      <h2 className=" text-2xl sm:text-4xl sm:pb-5 col-span-2">About me</h2>
+      <div className="flex flex-col col-span-2 md:col-span-1" >
+        <div className="font-serif sm:text-xl self-center">
           <p className="text-justify w-9/10">
           I'm a software developer located in Jyväskylä, Finland. 
           I'm a self taught developer with a background in Scottish and English law. 
