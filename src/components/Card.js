@@ -14,7 +14,7 @@ export const Card = ({pName, pUrl, pDesc, pTech}) => {
   const bExpanded = "mt-3 border-2 border-slate-800 rounded-lg w-8 h-8 bg-white self-end transition ease-in-out duration-300 rotate-180 scale-105 hover:bg-slate-100 hover:scale-100 active:bg-slate-200 active:scale-90"
   const bShrunk = "mt-3 border-2 border-slate-800 rounded-lg w-8 h-8 bg-blue-101 self-end transition ease-in-out duration-300 scale-105 hover:bg-blue-102 hover:scale-100 active:bg-blue-103 active:scale-90"
   //p styles
-  const pExpanded = "flex pt-8 font-serif text-md fill-slate-900 items-center "
+  const pExpanded = "flex pt-8 font-serif text-md fill-slate-900 items-center   "
   const pShrunk = "flex pt-8 font-serif text-md hidden fill-slate-50 items-center"
   //l styles
   const lExpanded = "flex pt-8 text-lg fill-slate-900 items-center "
