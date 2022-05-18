@@ -1,6 +1,7 @@
 import React from 'react';
 import {  useRef, useEffect } from 'react';
-import mapboxgl from 'mapbox-gl';
+// eslint-disable-next-line import/no-webpack-loader-syntax
+import mapboxgl from '!mapbox-gl';
 export const Map = () => {
   const mapContainer = useRef(null);
   const map = useRef(null);
