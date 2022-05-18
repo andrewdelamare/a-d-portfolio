@@ -10,6 +10,9 @@ module.exports = {
           102: '#69B9D6',
           103: '#5698B0',
         },
+        yellow: {
+          101: '#f2d267'
+        },
       },
       fontFamily: {
         sans: ['Ruda', 'sans-serif'],

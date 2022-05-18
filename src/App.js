@@ -16,7 +16,12 @@ function App() {
       <Projects />
       <Contact />
     </div>
-    
+    <footer className='flex flex-col w-4/5 justify-center mx-auto font-serif my-3'>
+    <span className='border-b border-slate-900 border-2'></span>
+      <p className='self-center mt-1'> 
+        Made in 2022 by Andrew de Lamare. Thanks for visiting!
+      </p>
+    </footer>
   </div>
    
   );

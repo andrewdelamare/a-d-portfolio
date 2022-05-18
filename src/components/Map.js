@@ -1,5 +1,5 @@
 import React from 'react';
-import {  useRef, useState, useEffect } from 'react';
+import {  useRef, useEffect } from 'react';
 import mapboxgl from 'mapbox-gl';
 export const Map = () => {
   const mapContainer = useRef(null);

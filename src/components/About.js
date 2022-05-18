@@ -2,9 +2,9 @@ import { Map } from "./Map"
 export const About = () => {
   
   return (
-    <div className="grid grid-cols-2 gap-9 w-4/5 justify-center mx-auto my-64 pt-32" id="#about">
+    <div className="grid grid-cols-2 gap-9 w-4/5 justify-center mx-auto mt-32 mb-64 pt-32" id="about">
+      <h2 className="text-4xl pb-5 col-span-2">About me</h2>
       <div className="flex flex-col" >
-        <h2 className="text-4xl pb-5">About me</h2>
         <div className="font-serif text-xl self-center">
           <p className="text-justify w-9/10">
           I'm a software developer located in Jyväskylä, Finland. 
