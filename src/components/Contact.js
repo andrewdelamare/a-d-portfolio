@@ -1,6 +1,5 @@
 import { ReactComponent as LiIcon } from "../icons/linkedin.svg"
 import { ReactComponent as GhIcon } from "../icons/github.svg"
-import { ReactComponent as EnvIcon } from "../icons/envelope.svg"
 export const Contact = () => {
   //Extra mail link with icon <a href="mailto:contact@andrewdelamare.dev" className="self-center"> <EnvIcon className="w-7 h-7 self-center"/></a>
   return (
