@@ -8,7 +8,7 @@ import { Projects } from './components/Projects';
 function App() {
 
   return (
-  <div className='bg-slate-100 flex flex-col justify-center'>
+  <div className='bg-slate-100 flex flex-col justify-center overflow-clip'>
     <NavBar />
     <div className=" h-full flow-root w-auto mx-8 ">
       <Home />
