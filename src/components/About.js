@@ -16,7 +16,7 @@ export const About = () => {
           I have experience with front end technologies and frameworks including React and Redux,
           as well as experience with some back end tech, and I'm very interested in modern full stack development.
           I'm especially interested in open source, 
-          so if you have a project you'd like some help with please send me an <a href="mailto:contact@andrewdelamare.dev" className="text-blue-102 hover:underline hover:text-blue-103 transition-all ease-in-out">email</a> with details and a link to your remote repository!
+          so if you have a project you'd like some help with please send me an <a href="mailto:contact@andrewdelamare.com" className="text-blue-102 hover:underline hover:text-blue-103 transition-all ease-in-out">email</a> with details and a link to your remote repository!
           </p>
         </div>
       </div>
