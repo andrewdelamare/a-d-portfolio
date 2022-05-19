@@ -15,8 +15,9 @@ export const About = () => {
           I like collaborating, being part of a team, and making things happen. 
           I have experience with front end technologies and frameworks including React and Redux,
           as well as experience with some back end tech, and I'm very interested in modern full stack development.
-          I'm especially interested in open source, 
-          so if you have a project you'd like some help with please send me an <a href="mailto:contact@andrewdelamare.com" className="text-blue-102 hover:underline hover:text-blue-103 transition-all ease-in-out">email</a> with details and a link to your remote repository!
+          In 2022 I took part in the Helsinki University Full Stack MOOC, which was my first introductin to full stack development.
+          I built front ends, back ends, unit tests and end to end tests all with the latest full stack tech. 
+          I am currently focused on growing and continuing my journey as a full stack developer.
           </p>
         </div>
       </div>
