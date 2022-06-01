@@ -16,7 +16,7 @@ export const About = () => {
           I have experience with front end technologies and frameworks including React and Redux,
           as well as experience with some back end tech, and I'm very interested in modern full stack development.
           In 2022 I took part in the Helsinki University Full Stack MOOC, which was my first introductin to full stack development.
-          I built front ends, back ends, unit tests and end to end tests all with the latest full stack tech. 
+          I build front ends, back ends, unit tests and end to end tests all with the latest full stack tech. 
           I am currently focused on growing and continuing my journey as a full stack developer.
           </p>
         </div>
