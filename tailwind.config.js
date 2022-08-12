@@ -17,8 +17,10 @@ module.exports = {
         serif: ["Roboto Slab", "serif"],
       },
       backgroundImage: {
-        haagse:
-          "url('/Users/andrewdelamare/Coding/portfolio_site/a-d-portfolio/src/images/SK-A-2443.png')",
+        hotelFe: "url('./images/hotelFe.png')",
+        hotelBe: "url('./images/hotelBe.png')",
+        calendar: "url('./images/calendar.png')",
+        devAcademy: "url('./images/sda-fall22-bg.png')",
       },
       height: {
         400: "400px",

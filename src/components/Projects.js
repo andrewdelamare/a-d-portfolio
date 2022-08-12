@@ -1,15 +1,60 @@
 import { Card } from "./Card";
+import { ImgCard } from "./ImgCard";
 export const Projects = () => {
-  //<Card pName="Front end mini project" pDesc="This project was great, I loved it. " pUrl="https://github.com/andrewdelamare/Full-Stack-Open-2021-Submissions/tree/master/part7/exercises_9-21" pTech="HTML, CSS, JS, TS, REACT"/>
-  //<Card pName="Old about me page" pDesc="This project was great, I loved it. I spent a ton of time working with these technologies and I really grew to love them." pUrl="This is a fake url" pTech="HTML, CSS, JS, TS, REACT"/>
-
   return (
     <div
+      id="projects"
+      className=" sm:gap-9 w-4/5 sm:justify-center mx-auto my-64 pt-32"
+    >
+      <h1 className="col-span-2 text-2xl sm:text-4xl">Projects</h1>
+      <div className="flex flex-col w-full">
+        <ImgCard
+          image="bg-devAcademy"
+          title="Dev Academy Project"
+          subTitle="A full stack data exploration app built with React and NodeJs"
+          link="https://github.com/andrewdelamare/SDA-Fall22"
+          ghLink=""
+        />
+        <ImgCard
+          image="bg-hotelFe "
+          title="Fake Hotel (front end)"
+          subTitle="React, react router, and axios based front end"
+          link="https://github.com/andrewdelamare/fake-hotel-fe"
+          ghLink=""
+        />
+        <ImgCard
+          image="bg-hotelBe "
+          title="Fake hotel (back end)"
+          subTitle="NodeJs, mongoose, and express based back end"
+          link="https://github.com/andrewdelamare/fake-hotel-be"
+          ghLink=""
+        />
+        <ImgCard
+          image="bg-calendar"
+          title="React Booking Calendar"
+          subTitle="An Air-Bnb inspired booking calendar"
+          link="https://github.com/andrewdelamare/react-booking-calendar"
+          ghLink=""
+        />
+      </div>
+    </div>
+  );
+};
+
+/*    <div
       id="projects"
       className="sm:grid sm:grid-cols-2 sm:gap-9 w-4/5 sm:justify-center mx-auto my-64 pt-32"
     >
       <h1 className="col-span-2 text-2xl sm:text-4xl">Projects</h1>
       <div className="flex flex-col w-full">
+        <ImgCard 
+          image="bg-devAcademy" 
+          title="Dev Academy Project" 
+          subTitle="A full stack data exploration app built with JS, React, and NodeJs" 
+          link="" 
+          ghLink=""
+
+        />
         <Card
           pName="Full stack blog app"
           pDesc="This was a Full Stack MOOC project. I used a version of the back end api I had previously made, and added the ability to create comments on blogs.
@@ -37,6 +82,4 @@ export const Projects = () => {
           pTech="JS, Node.js, Express, Jest"
         />
       </div>
-    </div>
-  );
-};
+    </div> */
