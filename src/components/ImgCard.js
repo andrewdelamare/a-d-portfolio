@@ -1,18 +1,3 @@
-/* 
-export const ImgCard = ({ image, title, subTitle, link, ghLink }) => {
-  return (
-  <div 
-  className={image + 
-  " flex flex-col border-4 border-slate-800 text-white rounded-lg p-7 my-3 shadow-xl w-full h-500 bg-cover bg-center items-center place-content-center contrast-50 "
-  }
-  onClick={() => window.open(link, "blank") } 
-   >
-    <h2 className="text-3xl">{title}</h2>
-    <p className="text-xl">{subTitle}</p>
-  </div>
-  );
-};
- */
 export const ImgCard = ({ image, title, subTitle, link, ghLink }) => (
   <div
     className={
