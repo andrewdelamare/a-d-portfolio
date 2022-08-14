@@ -20,7 +20,7 @@ export const About = () => {
             including React and Redux, as well as experience with some back end
             tech, and I'm very interested in modern full stack development. In
             2022 I took part in the Helsinki University Full Stack MOOC, which
-            was my first introductin to full stack development. I am currently
+            was my first introduction to full stack development. I am currently
             focused on growing and continuing my journey as a full stack
             developer.
           </p>
