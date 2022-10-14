@@ -4,7 +4,7 @@ export const Projects = () => {
   return (
     <div
       id="projects"
-      className=" sm:gap-9 w-4/5 sm:justify-center mx-auto my-64 pt-32"
+      className=" sm:gap-9 sm:w-4/5 sm:justify-center mx-auto my-64 pt-32"
     >
       <h1 className="col-span-2 text-2xl sm:text-4xl">Projects</h1>
       <div className="flex flex-col w-full">

@@ -6,7 +6,7 @@ export const ImgCard = ({ image, title, subTitle, link, ghLink }) => (
   >
     <div
       className={
-        "group w-auto h-full place-content-center bg-cover bg-center flex flex-col z-0 contrast-[30%] ease-in-out shadow-2xl hover:brightness-[80%] hover:shadow-xl rounded-lg border " +
+        "group w-auto h-full place-content-center bg-cover bg-center flex flex-col z-0 contrast-[30%] ease-in-out shadow-2xl hover:brightness-[80%] hover:shadow-xl sm:rounded-lg border " +
         image
       }
       onClick={() => {window.open(link, "blank"); window.focus();}}

@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="bg-slate-100 flex flex-col justify-center overflow-clip">
       <NavBar />
-      <div className=" h-full flow-root w-auto mx-8 ">
+      <div className=" mx-0 h-full flow-root w-auto sm:mx-8 ">
         <Home />
         <About />
         <Projects />
