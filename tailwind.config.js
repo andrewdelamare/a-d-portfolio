@@ -21,6 +21,7 @@ module.exports = {
         hotelBe: "url('./images/hotelBe.png')",
         calendar: "url('./images/calendar.png')",
         devAcademy: "url('./images/sda-fall22-bg.png')",
+        weather: "url('./images/weather-app-main.png')",
       },
       height: {
         400: "400px",

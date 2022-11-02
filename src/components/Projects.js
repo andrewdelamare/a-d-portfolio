@@ -16,6 +16,13 @@ export const Projects = () => {
           ghLink=""
         />
         <ImgCard
+          image="bg-weather"
+          title="Integrify Weather"
+          subTitle="A simple weather app with an interactive map and serverless functions"
+          link="https://github.com/andrewdelamare/integrify-weather"
+          ghLink=""
+        />
+        <ImgCard
           image="bg-hotelFe "
           title="Fake Hotel (front end)"
           subTitle="React, react router, and axios based front end"
