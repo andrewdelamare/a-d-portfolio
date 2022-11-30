@@ -18,7 +18,7 @@ export const Contact = () => {
         <h3 className=" text-lg sm:text-2xl mt-4">Send me a message</h3>
         <div className="flex flex-wrap mt-3">
           <a
-            className=" flex font-serif text-base sm:text-lg self-center w-fit p-2 border-black border-4 rounded-xl shadow-xl hover:shadow-lg hover:bg-blue-101 hover:text-white hover:scale-95 active:shadow-md active:scale-90 active:bg-blue-103 duration-100 transition-all ease-in-out"
+            className=" flex font-serif text-base sm:text-lg self-center w-fit p-2 border-black border-4 rounded-xl shadow-xl hover:shadow-lg hover:bg-blue-101 hover:text-white hover:scale-[99%] active:shadow-md active:scale-[97%] active:bg-blue-103 duration-150 transition-all ease-in-out"
             href="mailto:contact@andrewdelamare.com"
           >
             contact@andrewdelamare.com
@@ -26,13 +26,13 @@ export const Contact = () => {
           <div className="flex">
             <a
               href="https://github.com/andrewdelamare"
-              className="self-center mx-4 mt-3 scale-110 hover:scale-100 active:scale-90"
+              className="self-center mx-4 mt-3 scale-110 hover:scale-100 active:scale-90 duration-150"
             >
               <GhIcon className="w-7 h-7 self-center" />
             </a>
             <a
               href="https://www.linkedin.com/in/andrew-de-lamare-5166ba169"
-              className="self-center mr-4 mt-3 scale-110 hover:scale-100 active:scale-90"
+              className="self-center mr-4 mt-3 scale-110 hover:scale-100 active:scale-90 duration-150"
             >
               <LiIcon className="w-7 h-7 self-center " />
             </a>
