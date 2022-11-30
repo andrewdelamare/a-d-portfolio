@@ -1,7 +1,7 @@
 export const ImgCard = ({ image, title, subTitle, link, ghLink }) => (
   <div
     className={
-      " group relative place-content-center flex flex-col h-[600px] mb-4 hover:cursor-pointer hover:brightness-[0.9] ease-in-out transition duration-500 "
+      " group relative place-content-center flex flex-col h-[600px] mb-4 hover:cursor-pointer brightness-100 hover:brightness-[0.9] transition duration-200 "
     }>
     <div
       className={
